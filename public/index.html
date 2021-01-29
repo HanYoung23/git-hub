@@ -1,43 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <title>나에게 딱맞는 레슨·과외 선생님을 찾는 방법 - 프람피</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+  <meta name="description" content="10만명 이상이 이용하는 레슨·과외 연결 서비스. 외국어, 교과목, 음악, 댄스, 연기 등 다양한 분야의 레슨 강사 및 과외 전문 선생님들을 위치기반으로 연결하고 있습니다. 전국에 있는 영어회화과외, 중국어과외, 수학과외, 보컬레슨, 피아노레슨, 악기레슨, 댄스레슨, 연기레슨 실력파 선생님을 간단한 요청서 작성 후 만나보실 수 있습니다.">
+  <meta name="keywords" content="영어과외, 영어회화과외, 중국어과외, 일본어과외, 수학과외, 고등과외, 중등과외, 초등과외, 보컬레슨, 피아노레슨, 바이올린레슨, 악기레슨, 댄스레슨, 연기레슨, 개인레슨, 개인과외">
+<meta name="author" content="Athena's Lab Inc.">
+<meta property="og:locale" content="ko-KR">
+<meta property="og:type" content="website">
+<meta property="og:image:width" content="520">
+<meta property="og:image:height" content="292">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image" content="https://d3cwtye3iv0eb9.cloudfront.net/static/images/base/logo/logo_800x419.jpg">
+<meta property="og:image:secure_url" content="https://d3cwtye3iv0eb9.cloudfront.net/static/images/base/logo/logo_800x419.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://prompie.com">
+<meta name="twitter:image" content="https://d3cwtye3iv0eb9.cloudfront.net/static/images/base/logo/logo_800x419.jpg">
+  <meta property="og:title" content="나에게 딱맞는 레슨·과외 선생님을 찾는 방법 - 프람피">
+  <meta name="twitter:title" content="나에게 딱맞는 레슨·과외 선생님을 찾는 방법 - 프람피">
+  <meta property="og:description" content="나에게 딱 맞는 레슨·과외 선생님을 만나보세요. 1분 요청서 작성 후 선생님들의 제안을 받아보세요.">
+  <meta name="twitter:description" content="나에게 딱 맞는 레슨·과외 선생님을 만나보세요. 1분 요청서 작성 후 선생님들의 제안을 받아보세요.">
+    <meta name="robots" content="index,follow">
+  <link rel="shortcut icon" type="image/x-icon" href="https://d3cwtye3iv0eb9.cloudfront.net/static/images/base/favicon.ico">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/fontello/css/fontello-embedded.css?v=3.00">
+<link rel="stylesheet" href="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/vendor/font-awesome/css/fontawesome-all.min.css?v=3.00">
+<link rel="stylesheet" href="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/sweetalert2/sweetalert2.all.min.css">
+  <link rel="stylesheet" href="https://d3cwtye3iv0eb9.cloudfront.net/static/css/base/base.css?v=3.09">
+<link rel="stylesheet" href="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/jquery-ui-1.12.1/jquery-ui.css">
+<link rel="stylesheet" href="https://d3cwtye3iv0eb9.cloudfront.net/static/css/front/root/index.css?v=3.07">
+<link rel="stylesheet" href="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/swiper/swiper.min.css?v=3.00">
+<style></style>
+<!-- <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script type="text/javascript" async="" src="https://static.hotjar.com/c/hotjar-1486748.js?sv=7"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script src="https://connect.facebook.net/signals/config/643533259163860?v=2.9.33&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/1721720118091177?v=2.9.33&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.9.33" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M242PR2"></script><script src="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/jquery/jquery-3.3.1.min.js?v=3.00"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/jquery/jquery-migrate-3.0.0.min.js?v=3.00"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/js-cookie/js.cookie.min.js?v=3.00"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/bootstrap/bootstrap.min.js?v=3.00"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/body-scroll-lock/body-scroll-lock.min.js"></script>
+  <script src="https://d3cwtye3iv0eb9.cloudfront.net/static/js/base/base.js?v=3.20"></script>
+  <script src="https://d3cwtye3iv0eb9.cloudfront.net/static/js/firebase/firebase-messaging.js?v=3.00"></script>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/js/front/root/index.js?v=3.03"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/libraries/swiper/swiper.jquery.min.js?v=3.00"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/js/core/dryforms/animatescroll.noeasing.js?v=3.00"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/js/meta/services/request/elements.js?v=3.00"></script>
+<script src="https://d3cwtye3iv0eb9.cloudfront.net/static/js/meta/services/request/swipers.js?v=3.01"></script>
+<script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/875376625/?random=1611903349503&amp;cv=9&amp;fst=1611903349503&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=540&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg1k0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fprompie.com%2F&amp;tiba=%EB%82%98%EC%97%90%EA%B2%8C%20%EB%94%B1%EB%A7%9E%EB%8A%94%20%EB%A0%88%EC%8A%A8%C2%B7%EA%B3%BC%EC%99%B8%20%EC%84%A0%EC%83%9D%EB%8B%98%EC%9D%84%20%EC%B0%BE%EB%8A%94%20%EB%B0%A9%EB%B2%95%20-%20%ED%94%84%EB%9E%8C%ED%94%BC&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
+<script async="" src="https://script.hotjar.com/modules.29c79ff213b8c3ec96ae.js" charset="utf-8">
+</script> -->
+
+<!-- <style type="text/css">
+iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}
+</style> -->
+</head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
