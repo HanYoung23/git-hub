@@ -50,15 +50,37 @@
 <script src="https://d3cwtye3iv0eb9.cloudfront.net/static/js/meta/services/request/elements.js?v=3.00"></script>
 <script src="https://d3cwtye3iv0eb9.cloudfront.net/static/js/meta/services/request/swipers.js?v=3.01"></script>
 <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/875376625/?random=1611903349503&amp;cv=9&amp;fst=1611903349503&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=540&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg1k0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fprompie.com%2F&amp;tiba=%EB%82%98%EC%97%90%EA%B2%8C%20%EB%94%B1%EB%A7%9E%EB%8A%94%20%EB%A0%88%EC%8A%A8%C2%B7%EA%B3%BC%EC%99%B8%20%EC%84%A0%EC%83%9D%EB%8B%98%EC%9D%84%20%EC%B0%BE%EB%8A%94%20%EB%B0%A9%EB%B2%95%20-%20%ED%94%84%EB%9E%8C%ED%94%BC&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
+
 <script async="" src="https://script.hotjar.com/modules.29c79ff213b8c3ec96ae.js" charset="utf-8">
 </script> -->
 
 <!-- <style type="text/css">
 iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}
 </style> -->
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script>Kakao.init("5b3976323b4be800b8c0c62c9567bb9a");</script>
 </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <a href="javascript:kakaoLogin();">
+      <img src="https://www.lenstown.co.kr/img/sns/kakao_login.png" alt="" />
+      <script>
+        window.Kakao.init('5b3976323b4be800b8c0c62c9567bb9a'); 
+        function kakaoLogin()
+        {window.Kakao.Auth.login({
+          scope: "profile, account_email, gender",
+          success: function (authObj) {
+            console.log(authObj);
+            window.Kakao.API.request({
+              url: "/v2/user/me",
+              success: (res) => {
+                const kakao_account = res.kakao_account;
+                console.log(kakao_account);
+              },
+            });
+          },
+        })}
+      </script>
+    </a> -->
     <div id="root"></div>
   </body>
 </html>

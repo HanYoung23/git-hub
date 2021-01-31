@@ -1,24 +1,24 @@
 import React from "react";
 
-const Home_banner = props => {
+const Home_banner = (props) => {
   return (
     <div id="main-cover">
       <div id="main-cover-img">
-        <div class="container-fluid">
-          <div class="main-cover-text">
+        <div className="container-fluid">
+          <div className="main-cover-text">
             <h1>
               나에게 딱 맞는 레슨·과외<br></br>선생님을 만나보세요
             </h1>
             <p>1분 요청서 작성 후 선생님들의 제안을 받아보세요</p>
-            <div class="mobile-search">
-              <div class="search-box">
-                <div class="icon-area"></div>
+            <div className="mobile-search">
+              <div className="search-box">
+                <div className="icon-area"></div>
                 <input
                   type="text"
                   placeholder="서비스를 찾아보세요"
-                  class="form-control ui-autocomplete-input"
+                  className="form-control ui-autocomplete-input"
                   id="query"
-                  autocomplete="off"
+                  autoComplete="off"
                 ></input>
               </div>
             </div>

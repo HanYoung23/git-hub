@@ -1,13 +1,13 @@
 import React from "react";
 
-const Home_category = props => {
+const Home_category = (props) => {
   return (
     <div id="category_nav">
-      <div class="category_nav_box">
-        <div class="category_nav_box_2">
+      <div className="category_nav_box">
+        <div className="category_nav_box_2">
           <a
             href="/%EB%A0%88%EC%8A%A8/%EC%99%B8%EA%B5%AD%EC%96%B4/"
-            class="current_page"
+            className="current_page"
           >
             <span>외국어</span>
           </a>
@@ -33,7 +33,7 @@ const Home_category = props => {
           </a>
         </div>
       </div>
-      <div class="grad"></div>
+      <div className="grad"></div>
     </div>
   );
 };

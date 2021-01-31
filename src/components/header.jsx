@@ -1,27 +1,27 @@
 import React from "react";
 
-const Home_header_navbar = props => {
+const Header = (props) => {
   return (
     <div id="header-navbar">
-      <div class="header-navbar-left">
+      <div className="header-navbar-left">
         <div id="header-navbar-logo">
           <a href="/">
             <img
               src="https://d3cwtye3iv0eb9.cloudfront.net/static/images/base/logo/logo_wide_blue.png"
               alt=""
-              class="only-desktop-visible"
+              className="only-desktop-visible"
             ></img>
             <img
               src="https://d3cwtye3iv0eb9.cloudfront.net/static/images/base/logo/logo_wide_blue.png"
               alt=""
-              class="only-mobile-visible"
+              className="only-mobile-visible"
             ></img>
           </a>
         </div>
       </div>
       <div id="partnerNavigation" data-is-partner="false"></div>
       <div id="header-navbar-right">
-        <ul class="only-desktop-visible">
+        <ul className="only-desktop-visible">
           <li>
             <a href="/partners/register/">전문가 등록</a>
           </li>
@@ -32,20 +32,20 @@ const Home_header_navbar = props => {
             <a href="/accounts/login/">로그인</a>
           </li>
         </ul>
-        <ul class="mobile-menu only-mobile-visible">
-          <li class="mobile-nav-alarm">
+        <ul className="mobile-menu only-mobile-visible">
+          <li className="mobile-nav-alarm">
             <a href="/chats/list/">
-              <i class="fas fa-comments"></i>
+              <i className="fas fa-comments"></i>
             </a>
           </li>
-          <li class="mobile-nav-alarm">
+          <li className="mobile-nav-alarm">
             <a href="/notifications/center/list/">
-              <i class="fas fa-bell"></i>
+              <i className="fas fa-bell"></i>
             </a>
           </li>
           <li>
-            <button class="openbtn" onclick="openNav()">
-              <i class="icon-menu"></i>
+            <button className="openbtn" onClick="openNav()">
+              <i className="icon-menu"></i>
             </button>
           </li>
         </ul>
@@ -54,4 +54,4 @@ const Home_header_navbar = props => {
   );
 };
 
-export default Home_header_navbar;
+export default Header;
