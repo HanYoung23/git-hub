@@ -18,8 +18,9 @@ const Header = (props) => {
             ></img>
           </a>
         </div>
+        <div id="partnerNavigation" data-is-partner="false"></div>
       </div>
-      <div id="partnerNavigation" data-is-partner="false"></div>
+
       <div id="header-navbar-right">
         <ul className="only-desktop-visible">
           <li>
@@ -32,6 +33,7 @@ const Header = (props) => {
             <a href="/accounts/login/">로그인</a>
           </li>
         </ul>
+
         <ul className="mobile-menu only-mobile-visible">
           <li className="mobile-nav-alarm">
             <a href="/chats/list/">
@@ -44,7 +46,7 @@ const Header = (props) => {
             </a>
           </li>
           <li>
-            <button className="openbtn" onClick="openNav()">
+            <button className="openbtn" onclick="openNav()">
               <i className="icon-menu"></i>
             </button>
           </li>

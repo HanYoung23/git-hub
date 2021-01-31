@@ -183,8 +183,7 @@ const Request_english_section = (props) => {
             <div
               className="swiper-pagination"
               id="main-swiper-pagination"
-            ></div>{" "}
-            -->
+            ></div>
             <div className="swiper-prev-btn">
               <i className="icon-left-open-big"></i>
             </div>

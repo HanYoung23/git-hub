@@ -9,6 +9,7 @@ import Home_procedure from "./home_procedure";
 import Home_link_banner from "./home_link_banner";
 import Home_corp_banner from "./home_corp_banner";
 import Home_experts_intro from "./home_experts_intro";
+import "./home.css";
 
 const Home = (props) => {
   return (
